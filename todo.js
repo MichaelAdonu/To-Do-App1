@@ -5,9 +5,7 @@ renderTodoList();
 function renderTodoList() {
   let todoListHTML = "";
   todoList.forEach((todoObject, index) => {
-    //const todoObject = todoList[i];
-    // const name = todoObject.name;
-    // const dueDate = todoObject.dueDate;
+    
     //Using Object destructring
     const { name, dueDate } = todoObject;
     //Separate into three Elements
